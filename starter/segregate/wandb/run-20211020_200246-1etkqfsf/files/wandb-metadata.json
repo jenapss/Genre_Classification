@@ -1,0 +1,35 @@
+{
+    "os": "macOS-11.1-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-10-20T15:02:49.770572",
+    "startedAt": "2021-10-20T15:02:46.262375",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/Users/jelaleddin/genre_classification/starter/segregate/run.py",
+    "codePath": "starter/segregate/run.py",
+    "git": {
+        "remote": "https://github.com/jenapss/genre_classification",
+        "commit": "3f5572c09c57cb7f3b53c8d34443f4ec29e60c86"
+    },
+    "email": "jelaleddinsultanov@yandex.ru",
+    "root": "/Users/jelaleddin/genre_classification",
+    "host": "jelaleddins-MacBook-Pro.local",
+    "username": "jelaleddin",
+    "executable": "/Users/jelaleddin/anaconda3/envs/mlflow-b536c99cab3f07bfeb0a1ad9e153575c07cd087e/bin/python"
+}

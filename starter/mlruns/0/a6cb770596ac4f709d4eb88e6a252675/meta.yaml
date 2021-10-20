@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jelaleddin/genre_classification/starter/mlruns/0/a6cb770596ac4f709d4eb88e6a252675/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: a6cb770596ac4f709d4eb88e6a252675
+run_uuid: a6cb770596ac4f709d4eb88e6a252675
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1634232926719
+status: 1
+tags: []
+user_id: jelaleddin

@@ -1,0 +1,31 @@
+{
+    "os": "macOS-11.1-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-10-20T14:59:29.674464",
+    "startedAt": "2021-10-20T14:59:22.480378",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "raw_data.parquet:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "preprocessed_data",
+        "--artifact_description",
+        "Data with preprocessing applied"
+    ],
+    "state": "running",
+    "program": "/Users/jelaleddin/genre_classification/starter/preprocess/run.py",
+    "codePath": "starter/preprocess/run.py",
+    "git": {
+        "remote": "https://github.com/jenapss/genre_classification",
+        "commit": "3f5572c09c57cb7f3b53c8d34443f4ec29e60c86"
+    },
+    "email": "jelaleddinsultanov@yandex.ru",
+    "root": "/Users/jelaleddin/genre_classification",
+    "host": "jelaleddins-MacBook-Pro.local",
+    "username": "jelaleddin",
+    "executable": "/Users/jelaleddin/anaconda3/envs/mlflow-484b576132a8d4f86bd93cd736b9c9cac218a14d/bin/python"
+}

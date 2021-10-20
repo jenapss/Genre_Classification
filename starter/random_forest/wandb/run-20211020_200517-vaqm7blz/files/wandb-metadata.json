@@ -1,0 +1,35 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-10-20T15:05:21.605670",
+    "startedAt": "2021-10-20T15:05:17.763054",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/Users/jelaleddin/genre_classification/starter/outputs/2021-10-20/19-51-46/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "starter/random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/jenapss/genre_classification",
+        "commit": "3f5572c09c57cb7f3b53c8d34443f4ec29e60c86"
+    },
+    "email": "jelaleddinsultanov@yandex.ru",
+    "root": "/Users/jelaleddin/genre_classification",
+    "host": "jelaleddins-MacBook-Pro.local",
+    "username": "jelaleddin",
+    "executable": "/Users/jelaleddin/anaconda3/envs/mlflow-259d53ab44a1e9011b0c64ae862f43343c0fc9e5/bin/python"
+}
