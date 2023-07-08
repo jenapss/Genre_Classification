@@ -15,7 +15,7 @@ The model was evaluated using a test set from the dataset, with an AUC (Area Und
 
 <p float="left">
   <img src="https://github.com/AMergy/genre_classification/tree/main/figures/feature_importance_0_f1fd3194294f7a484f72.png" width="300" />
-  <img src="https://github.com/AMergy/genre_classification/tree/main/figures/confusion_matrix_0_f02dfbea4d35c8b2f32b.png" width="300" />
+  <img src="confusion_matrix_0_f02dfbea4d35c8b2f32b.png" width="300" />
 </p>
 
 ## Pipeline
